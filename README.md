@@ -11,3 +11,7 @@ Una vez descargado lo tienes que agregar a tu path en tus variables de entorno y
 ## Enlace al video.
 El video de la demostración lo puedes encontrar acá
 [Demostración](https://youtu.be/SG1Z_fmy23k)
+
+### Demostración corta sin explicar el programa.
+https://github.com/user-attachments/assets/95b2e69f-a171-4fe3-9856-394e6ce55eef
+
