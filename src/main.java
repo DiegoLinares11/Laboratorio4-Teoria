@@ -39,7 +39,7 @@ public class main {
 
                     // Simulación del AFN con una cadena de prueba y un límite de visitas
                     int visitLimit = 4; // Número de veces que un estado puede ser visitado
-                    String cadena = "aa";
+                    String cadena = "aab";
                     boolean result = nfa.simulate(cadena, visitLimit);
                     System.out.println(
                             "La cadena: " + cadena + " es " + (result ? "aceptada" : "rechazada") + " por el AFN.");

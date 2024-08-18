@@ -12,6 +12,8 @@ class NFA {
         this.accept = accept;
     }
 
+    // Este método toma una cadena de entrada y simula el AFN para determinar si la
+    // cadena es aceptada
     boolean simulate(String input, int visitLimit) {
         return simulate(start, input, 0, new HashMap<>(), visitLimit);
     }

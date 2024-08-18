@@ -1,0 +1,19 @@
+digraph NFA {
+node10 -> node8 [label="e"];
+node8 -> node2 [label="e"];
+node2 -> node0 [label="e"];
+node0 -> node1 [label="a"];
+node1 -> node0 [label="e"];
+node1 -> node3 [label="e"];
+node3 -> node9 [label="e"];
+node9 -> node8 [label="e"];
+node9 -> node11 [label="e"];
+node2 -> node3 [label="e"];
+node8 -> node6 [label="e"];
+node6 -> node4 [label="e"];
+node4 -> node5 [label="b"];
+node5 -> node4 [label="e"];
+node5 -> node7 [label="e"];
+node7 -> node9 [label="e"];
+node6 -> node7 [label="e"];
+}

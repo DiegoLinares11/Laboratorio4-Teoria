@@ -8,6 +8,7 @@ class NFAtoGraphvizVisitor {
         sb.append("digraph NFA {\n");
     }
 
+    // Recorre los estados del AFN, generando las conexiones en el archivo .dot.
     void visit(State state) {
         if (visited.contains(state))
             return;

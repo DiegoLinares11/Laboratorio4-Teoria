@@ -1,0 +1,21 @@
+digraph NFA {
+node24 -> node22 [label="e"];
+node22 -> node16 [label="e"];
+node16 -> node12 [label="e"];
+node12 -> node13 [label="e"];
+node13 -> node17 [label="e"];
+node17 -> node23 [label="e"];
+node23 -> node22 [label="e"];
+node23 -> node25 [label="e"];
+node16 -> node14 [label="e"];
+node14 -> node15 [label="a"];
+node15 -> node17 [label="e"];
+node22 -> node20 [label="e"];
+node20 -> node18 [label="e"];
+node18 -> node19 [label="b"];
+node19 -> node18 [label="e"];
+node19 -> node21 [label="e"];
+node21 -> node23 [label="e"];
+node20 -> node21 [label="e"];
+node24 -> node25 [label="e"];
+}
